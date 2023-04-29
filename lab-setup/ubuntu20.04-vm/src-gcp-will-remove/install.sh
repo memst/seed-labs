@@ -136,7 +136,7 @@ chmod u+x ~/Desktop/*.desktop
 sudo cp -f Files/System/Background/* /usr/share/backgrounds/xfce/
 
 # Install TigerVNC server, and copy the configuration file
-sudo apt -y install tigervnc-standalone-server tigervnc-xorg-extension
+sudo apt -y install tightvncserver
 mkdir -p ~/.vnc
 cp Files/System/vnc_xstartup ~/.vnc/xstartup
 chmod u+x ~/.vnc/xstartup
